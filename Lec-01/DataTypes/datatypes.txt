@@ -1,0 +1,34 @@
+There are 2 types of datatypes in JavaScript; typeOf ('variableName') -> will provide the datatype of the variable
+    1. Primitive: 
+        a. These are immutable and stored by value
+        b. Primitive datatypes:
+            1. Numbers, 
+            2. String, 
+            3. Boolean, 
+            4. Undefined, 
+            5. Null, (Note: typeof null returns "object" — this is a known JavaScript bug)
+            6. BigInt, 
+            7. Symbol
+    2. Non-Primitive (These are mutable and stored by reference): Objects, Arrays, Functions etc.
+        a. Objects: Collection of values 
+        b. syntax: objectName ={
+            key : value
+        }
+        c. Example:
+            student = {
+                name : "Mahir",
+                age: 25,
+                cgpa: 3.70,
+                isGraduated: true,
+                address: null
+            }
+        d. key can be accessed in 2 ways:
+            i. objectName.key  //dot notation
+            ii. objectName["key"] //bracket notation
+        e. two update an object we need to update every key to update the object.
+        f. individual keu of a const object can be updated
+
+#. Mutable VS Immutable:
+    1. mutability refers to whether a value can be changed after it's created, while immutability means the value cannot be changed.
+    2. Mutable : New memory allocation on change; Immutable: same memory location just value change
+
