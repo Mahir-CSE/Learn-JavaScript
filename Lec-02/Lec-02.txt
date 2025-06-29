@@ -1,0 +1,30 @@
+# Operators in JavaScript:
+
+Example: a + b = c 
+    (a, b) = operands,
+    (+, =) = Operators
+
+    1. Arithmatic Operators: 
+        a. Basic Calculations: +, , *, /
+        b. Modulus: % (Calculate the remainder)
+        c. Exponential operators: a ** b 
+        d. Unary Operators:
+            i. increment: ++;   a++(Post), ++a(Pre)
+            ii. Decrement: --
+
+            Example of Pre and Post: a = 5, b = 7
+                #. a++ = 5
+                #. ++a = 6
+                #. b-- = 7
+                #. --b = 6
+
+    2. Assignment Operators: =, +=, -=, *=, /=, %=, **=
+    3. Comparison Operators: ==, !=, >=, <=, ===, !==
+        -> In JavaScript, if a = 5, and b= "5" and if we check, (a == b); it will give us true.
+        -> Because, at first the string will convert into number and then the comparison will occur.
+        -> If we want to check the datatype as well, we need to use === or !==
+
+    4. Logical Operators:
+        a. Logical AND (&&): When all events are true, we get the final result true
+        b. Logical OR (||): When at least one event is true, we get the final result true
+        c. Logical NOT (!): We get the opposite
