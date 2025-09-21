@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leap Year Checker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>🗓️ Leap Year Checker</h1>
+
+        <div class="input-section">
+            <label for="yearInput">Enter a year:</label>
+            <input type="number" id="yearInput" placeholder="e.g., 2024" min="1">
+            <button onclick="checkLeapYear()">Check Leap Year</button>
+        </div>
+
+        <div id="result"></div>
+
+        <div class="info">
+            <h3>📋 Leap Year Rules:</h3>
+            <ul>
+                <li>A year is a leap year if it's divisible by 4</li>
+                <li>However, if it's divisible by 100, it's NOT a leap year</li>
+                <li>Unless it's also divisible by 400, then it IS a leap year</li>
+            </ul>
+            <p><strong>Examples:</strong> 2000, 2004, 2008, 2012, 2016, 2020, 2024 are leap years</p>
+            <p><strong>Not leap years:</strong> 1900, 1800, 1700 (divisible by 100 but not 400)</p>
+        </div>
+        <footer class="footer">
+            <p>Developed by Mahir Ahmed</p>
+        </footer>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
