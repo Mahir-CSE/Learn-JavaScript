@@ -1,0 +1,162 @@
+# 50 JavaScript Practice Problems [Lecture: 01-03]
+
+## EASY LEVEL (Problems 1-20)
+
+### Variables & Data Types
+1. Create variables using `let`, `const`, and `var` to store your name, age, and favorite color. Display them using `console.log()`.
+
+2. Write a program that prompts the user for their name and displays "Hello [name]!" using `alert()`.
+
+3. Create variables to store different data types (string, number, boolean, undefined, null) and use `typeof` to check their types.
+
+4. Declare a constant for PI (3.14159) and calculate the area of a circle with radius 5.
+
+### Basic Operations
+5. Create a simple calculator that adds two numbers entered by the user via `prompt()`.
+
+6. Write a program that converts temperature from Celsius to Fahrenheit using the formula: F = (C × 9/5) + 32.
+
+7. Calculate the remainder when 17 is divided by 5 using the modulo operator.
+
+8. Use unary operators to convert a string "25" to a number and increment it by 1.
+
+### Conditional Statements
+9. Write a program that checks if a number is positive, negative, or zero.
+
+10. Create a program that determines if a person can vote (age >= 18).
+
+11. Write a program using switch statement to display the day of the week based on a number (1-7).
+
+12. Check if a year entered by the user is a leap year or not.
+
+### Basic Loops
+13. Print numbers from 1 to 10 using a `for` loop.
+
+14. Use a `while` loop to print even numbers from 2 to 20.
+
+15. Calculate the sum of numbers from 1 to 100 using any loop.
+
+16. Print your name 5 times using a `do-while` loop.
+
+### Basic Strings
+17. Create a string with your full name and display its length.
+
+18. Convert a string "JAVASCRIPT" to lowercase and "javascript" to uppercase.
+
+19. Use template literals to create a sentence: "My name is [name] and I am [age] years old."
+
+20. Extract the first 5 characters from the string "Programming".
+
+---
+
+## **MEDIUM LEVEL (Problems 21-35)**
+
+### Advanced Operations
+21. Create a program that swaps two variables without using a third variable.
+
+22. Write a program that finds the largest of three numbers using nested ternary operators.
+
+23. Use logical operators to check if a number is between 10 and 50 (inclusive).
+
+24. Create a bitwise operation program that checks if a number is even or odd using the AND operator.
+
+### Complex Conditionals
+25. Write a program that determines grades based on marks:
+    - A: 90-100
+    - B: 80-89
+    - C: 70-79
+    - D: 60-69
+    - F: Below 60
+
+26. Create a simple login system that checks username and password using logical operators.
+
+27. Write a program that determines the season based on month number (1-12).
+
+28. Create a program that calculates discount based on purchase amount:
+    - 20% for amount > 1000
+    - 10% for amount > 500
+    - 5% for amount > 200
+    - No discount otherwise
+
+### Advanced Loops
+29. Print multiplication table of any number using nested loops.
+
+30. Use `for-in` loop to iterate through an object's properties: `{name: "John", age: 25, city: "NYC"}`.
+
+31. Use `for-of` loop to iterate through an array: `["apple", "banana", "cherry"]`.
+
+32. Create a pattern printing program:
+    ```
+    *
+    **
+    ***
+    ****
+    *****
+    ```
+
+### String Manipulation
+33. Write a program that counts the number of vowels in a given string.
+
+34. Create a function that reverses a string without using built-in reverse method.
+
+35. Check if a given string is a palindrome (reads same forwards and backwards).
+
+---
+
+## **HARD LEVEL (Problems 36-50)**
+
+### Complex Algorithms
+36. Write a program to find all prime numbers between 1 and 100.
+
+37. Create a program that generates the Fibonacci sequence up to n terms.
+
+38. Write a program that finds the factorial of a number using both loops and recursion concept.
+
+39. Create a program that checks if a number is an Armstrong number (sum of cubes of digits equals the number).
+
+### Advanced String Problems
+40. Write a program that counts the frequency of each character in a string.
+
+41. Create a program that finds the longest word in a sentence.
+
+42. Write a program that removes duplicate characters from a string.
+
+43. Create a Caesar cipher program that shifts each letter by n positions.
+
+### Complex Logic Problems
+44. Write a program that converts a decimal number to binary.
+
+45. Create a program that finds the second largest number in an array without sorting.
+
+46. Write a program that generates a random password with specified length containing letters, numbers, and symbols.
+
+47. Create a number guessing game where the computer generates a random number and the user has to guess it.
+
+### Integration Problems
+48. Create a comprehensive student management system that:
+    - Stores student data (name, age, marks)
+    - Calculates grades
+    - Determines pass/fail status
+    - Uses all types of loops and conditionals
+
+49. Build a simple text analyzer that:
+    - Counts words, characters, sentences
+    - Finds most frequent word
+    - Checks for specific patterns
+    - Uses multiple string methods
+
+50. Create a mini banking system that:
+    - Handles deposits and withdrawals
+    - Checks balance
+    - Maintains transaction history
+    - Uses various operators and conditionals
+    - Implements proper validation
+
+---
+
+## **Tips for Practice:**
+- Start with easy problems and gradually move to harder ones
+- Try to solve each problem using different approaches
+- Use `console.log()` frequently to debug your code
+- Practice writing clean, readable code with proper variable names
+- Don't hesitate to revisit easier problems to strengthen fundamentals
