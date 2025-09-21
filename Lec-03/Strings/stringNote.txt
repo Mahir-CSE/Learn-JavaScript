@@ -1,0 +1,14 @@
+1. What is template literals?
+-> The answer is, template literals is a special type of string that use to create with `` (backtick)
+-> It is a way to embedded expressions in a string
+-> The price of bat is 2500; here bat and 2500 is expression.
+-> to print a expression in the string we use ${expression}
+-> `The price of ${obj.item} is ${obj/price}`
+
+2. What is String Interpolation?
+-> To create strings by doing substitution of placeholders.
+-> `The is a string where we can add expressions as well ${1+2+3}`
+
+3. What is Escaped Characters?
+-> \n : create nextline to the string
+-> \t : create a tab-space to the string
